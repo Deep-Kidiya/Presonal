@@ -1,0 +1,22 @@
+.box-1.d-1 {
+    margin: 20px 15px;
+}
+.box-1.d-2 {
+    margin: 20px 15px;
+}
+.box-1.d-3 {
+    margin: 20px 15px;
+}
+
+input {
+    background: transparent;
+    border: 3px solid var(--d-blue);
+    outline: none;
+    padding: 40px 725px 40px 40px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.i-2 {
+    padding: 40px 725px 190px 40px;
+}
