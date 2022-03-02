@@ -1,0 +1,14 @@
+@media (max-width:912px ) {
+    .navbar-light li a::after {
+        display: none;
+    }
+    
+    .navbar-light li a:hover::after {
+       display: none;
+    }
+    
+    .navbar-light li a.active::after {
+       display: none;
+    }
+    
+}

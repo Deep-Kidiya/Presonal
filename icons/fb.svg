@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.664" height="15.328" viewBox="0 0 7.664 15.328">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4badec"/>
+      <stop offset="1" stop-color="#615edc"/>
+    </linearGradient>
+  </defs>
+  <g id="Page-1" transform="translate(0 0)">
+    <g id="Dribbble-Light-Preview">
+      <g id="icons">
+        <path id="facebook-_176_" data-name="facebook-[#176]" d="M334.228,7254.329v-6.9h2.095l.342-3.065h-2.436v-1.494c0-.789.021-1.57,1.124-1.57h1.117v-2.192a12.749,12.749,0,0,0-1.931-.107c-2.028,0-3.3,1.272-3.3,3.6v1.763H329v3.065h2.24v6.9Z" transform="translate(-329 -7239)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,112 @@
+.about .heading h1 {
+    text-align: start;
+    background: linear-gradient(to right,#21BDE4, #B447C5);
+    font-weight: 600;
+    font-size: 40px;
+    margin: 75px 555px 40px 0;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text p {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--w);
+    padding: 10px 0 30px;
+    line-height: 50px;
+}
+
+.box {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    background: var(--d-blue);
+    padding: 40px 30px;
+    margin: 35px 10px;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.heading h1 {
+    text-align: center;
+    background: linear-gradient(to right,#21BDE4, #B447C5);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px 678px 40px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--w);
+    padding: 30px 0 40px;
+}
+
+.box h2 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--l-gray);
+    padding: 0;
+}
+
+.box:hover {
+    background: var(--d-blue);
+}
+
+
+.in-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 386px;
+    height: 0px;
+    border-radius: 30px;
+
+    opacity: 0;
+    background: linear-gradient(rgba(33, 189, 228, 0%), rgba(170, 71, 197, 70%));
+    transition: all 0.5s ease;
+}
+
+.box:hover .in-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: grayscale(0);
+    width: 386px;
+    opacity: 100%;
+    height: 450px;
+    border-radius: 30px;
+    background: linear-gradient(rgba(33, 189, 228, 0%), rgba(170, 71, 197, 70%));
+}
+
+.box img {
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+    border-radius: 40px;
+}
+
+.box:hover img {
+    filter: grayscale(0);
+}
+
+.icon-box {
+    background: var(--d-blue);
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 300px 50px 20px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.box:hover .icon-box {
+    margin: 340px 50px 20px;
+    opacity: 100%;
+}

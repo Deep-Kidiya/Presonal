@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --body: linear-gradient(to right,#171D2F, #1F263E); 
+    --gray: #919191;
+    --l-gray: #BBBBBB;
+    --w: #FFFFFF;
+    --h-text: linear-gradient(to right,#21BDE4, #B447C5); 
+    --n-text: linear-gradient(to right,#4BADEC, #615EDC);
+    --blue: #57B0E6;
+    --d-blue: #292B65;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1720px;
+}
+
+/* ================================ Nave ======================================= */
+
+.bg-light {
+    background: var(--body);
+}
+
+.navbar-light li a {
+    position: relative;
+    padding: 35px;
+    margin-left: 40px;
+    background: var(--l-gray);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+    justify-content: space-between;
+}
+
+.navbar-light li a::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: none;
+    bottom: 15px;
+    left: 0%;
+    border-radius: 50%;
+    background: var(--n-text);
+    transition: all 0.6s ease;
+    opacity: 0;
+}
+
+.navbar-light li a:hover::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: none;
+    bottom: 15px;
+    left: 50%;
+    border-radius: 50%;
+    background: var(--n-text);
+    opacity: 100%;
+}
+
+.navbar-light li a.active::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    border: none;
+    bottom: 15px;
+    left: 30%;
+    border-radius: 10px;
+    background: var(--n-text);
+    opacity: 100%;
+}
+
+
+
+.navbar-light li a:hover {
+    background: var(--n-text);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-light li  a.active {
+    background: var(--n-text);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* ======================================= End of Nave ======================================================= */
+
+
+/* ======================================= End of Header ======================================================= */
+
+
+header .left {
+    padding: 235px 0;
+}
+
+.left .text h1 {
+    color: var(--w);
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.left .text p {
+    padding: 10px 0;
+    color: var(--w);
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 0;
+    margin: 0;
+}
+
+.btn button {
+    margin: 20px 0 0;
+    border-radius: 50px;
+    padding: 20px 60px;
+    border: 3px solid transparent;
+    color: var(--w);
+    background: linear-gradient( #4BADEC, #615EDC);
+    font-size: 25px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn button:hover {
+   
+    border-color: #4BADEC;
+    color: #4BADEC;
+    background: transparent;
+  
+}
+
+header .icon {
+    margin-left: 155px;
+    position: relative;
+    margin-top: 110px;
+}
+
+header .icon::after {
+    content: '';
+    position: absolute;
+    border-radius: 30px;
+    width: 100px;
+    height: 10px;
+    background: var(--n-text);
+    top: 10px;
+    left: -150px;
+}
+
+.icon a {
+    padding: 20px;
+}
+
+.icon img {
+    height: 25px;
+}
+
+.hd {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .rigth .h-box {
+    width: 635px;
+    height: 790px;
+    background: linear-gradient(#4BADEC, #1E243B);
+    border-radius: 335px 335px 0 0;
+    margin-top: 90px;
+}
+
+
+
+/* ======================================= End of Header ======================================================= */
+
+/* ======================================= About ======================================================= */
+
+.about {
+    padding: 190px 0;
+    justify-content: space-between;
+}
+
+.about .left {
+    position: relative;
+}
+
+.left .box-1 img {
+    background: var(--h-text);
+    width: 700px;
+    height: 700px;
+    border: none;
+    border-radius: 55px;
+}
+
+.left .box-2 img {
+    position: absolute;
+    background: var(--gray);
+    width: 700px;
+    transform: rotate(10deg);
+    height: 700px;
+    border-radius: 55px;
+    bottom: 0;
+    border: none;
+    left: 0;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.left .box-2:hover img {
+    transform: rotate(0deg);
+    filter: grayscale(0);
+}
+
+.about .heading h2 {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--w);
+    text-transform: uppercase;
+}
+
+.about .heading h1 {
+    text-align: start;
+    background: linear-gradient(to right,#21BDE4, #B447C5);
+    font-weight: 600;
+    font-size: 40px;
+    margin: 10px 555px 40px 0;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boxs .box-1 {
+    display: grid;
+    justify-content: center;
+    padding: 35px;
+    border-radius: 30px;
+    margin: 0 0;
+    background: var(--d-blue);
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boxs .box-1:hover {
+    background: transparent;
+    border-color: var(--d-blue);
+}
+
+.box-1 .icon {
+    justify-content: center;
+    display: flex;
+}
+
+.box-1.d-1 {
+    margin: 0 15px 0 0;
+}
+
+.box-1.d-2 {
+    margin: 0 15px 0 ;
+}
+
+.box-1.d-3 {
+    margin: 0 0 0 15px ;
+}
+
+.box-1 .text h1 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 30px 0 15px  ;
+    text-align: center;
+    color: var(--w);
+}
+
+.box-1 .text h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--l-gray);
+}
+
+.text p {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--w);
+    padding: 40px 0 0;
+}
+
+
+/* ======================================= End of About ======================================================= */
+
+
+
+
+/* ======================================= Projects ======================================================= */
+
+
+.heading h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--w);
+    text-transform: uppercase;
+}
+
+.heading h1 {
+    text-align: center;
+    background: linear-gradient(to right,#21BDE4, #B447C5);
+    font-weight: 600;
+    font-size: 40px;
+    margin: 10px 700px 40px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects {
+    margin-top: 150px;
+}
+
+.projects .btn button {
+    margin: 20px 0 0;
+    border-radius: 50px;
+    padding: 13px 40px;
+    border: 3px solid transparent;
+    color: var(--w);
+    background: linear-gradient( #4BADEC, #615EDC);
+    font-size: 15px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.projects .btn button:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+    background: transparent;
+}
+
+.projects .text p {
+    font-size: 29px;
+    font-weight: 400;
+    color: var(--w);
+    padding: 40px 0 0;
+}
+
+.box {
+    background: var(--d-blue);
+    padding: 30px;
+    margin: 0 10px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background: transparent;
+    border-color: var(--d-blue);
+}
+
+
+/* ======================================= End of Projects ======================================================= */
+
+/* ======================================= Review ======================================================= */
+
+.review {
+    padding: 150px 0 0;
+}
+
+.review .box h1 {
+    text-align: center;
+    font-size: 20px;
+    color: var(--w);
+    padding: 30px 0 20px ;
+}
+
+.review .box p {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--l-gray);
+    line-height: 40px;
+    text-align: center;
+}
+
+.dots {
+    padding: 50px 0 0;
+}
+
+.dot {
+    padding: 5px;
+    margin: 10px;
+    background: transparent;
+    border: 3px solid var(--blue);
+    border-radius: 50%;
+}
+
+.dot.active {
+    background: var(--blue);
+    border: 3px solid transparent ;
+}
+
+
+
+/* ======================================= End of Review ======================================================= */
+
+
+/* ======================================= Offers ======================================================= */
+
+.offer {
+    padding: 150px 0 0;
+}
+
+.offer .box {
+    border: none;
+    padding: 0;
+}
+
+.offer .box:hover {
+    background: var(--d-blue);
+}
+
+.offer .box .head {
+    background: var(--blue);
+    border-radius: 0 0 30px 30px ;
+    margin-bottom: 50px;
+}
+
+.offer .box .head h1 {
+    font-size: 30px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.body-text {
+    align-items: center;
+    padding: 0 49px ;
+}
+
+.body-text h1 {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    line-height: 30px;
+    color: var(--w);
+}
+
+.body-text.bottom {
+    padding: 10px 49px 50px;
+}
+/* ======================================= End of Offers ======================================================= */
+
+
+
+/* ======================================= footer ======================================================= */
+
+
+footer {
+    margin-top: 150px;
+    background: linear-gradient(var(--blue), #615EDC);
+    padding: 90px 0 40px;
+}
+
+footer h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--d-blue);
+    padding: 0 0 30px;
+}
+
+footer .nav-link {
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 0;
+    color: var(--w);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer .nav-link:hover {
+    color: var(--d-blue);
+}
+
+.f-1 {
+    margin-right: 50px;
+}
+
+.f-5 p {
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--w);
+    margin-bottom: 40px;
+}
+
+.f-5 a {
+    padding: 20px;
+}
+
+.f-5 a:hover g g path, .f-5 a:hover g g rect {
+    fill:  var(--d-blue);
+}
+
+.f-5 a:hover svg path, .f-5 a:hover svg circle {
+    fill:  var(--d-blue);
+}
+
+.f-5 a svg path, .f-5 a svg circle {
+    transition: all 0.3s ease;
+}
+
+.f-5 a g path, .f-5 a:hover g g rect {
+    transition: all 0.3s ease;
+}
+
+footer .top {
+    border-bottom: 1px solid var(--l-gray);
+    padding: 0 0 50px;
+}
+
+footer .bottom h1 {
+    padding: 50px 20px;
+    text-align: center;
+    color: var(--w);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+/* ======================================= End of footer ======================================================= */

@@ -1,0 +1,66 @@
+.heading h1 {
+    text-align: center;
+    background: linear-gradient(to right,#21BDE4, #B447C5);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px 721px 40px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about .heading h1 {
+    text-align: start;
+    background: linear-gradient(to right,#21BDE4, #B447C5);
+    font-weight: 600;
+    font-size: 40px;
+    margin: 75px 555px 40px 0;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text p {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--w);
+    padding: 10px 0 30px;
+    line-height: 50px;
+}
+
+.box {
+    background: var(--d-blue);
+    padding: 40px 30px;
+    margin: 35px 10px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projects {
+    margin-top: 45px;
+}
+
+.btn {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.projects .text p {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--l-gray);
+    padding: 20px 0 0;
+    text-align: center;
+}
+
+.projects .text h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--w);
+    padding: 40px 0 0;
+    text-align: center;
+}

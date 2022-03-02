@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4badec"/>
+      <stop offset="1" stop-color="#615edc"/>
+    </linearGradient>
+  </defs>
+  <g id="logoipsum-logo-54" transform="translate(-0.684 -0.138)">
+    <path id="Path_10" data-name="Path 10" d="M20.684,40.138a20,20,0,1,0-20-20A20,20,0,0,0,20.684,40.138ZM26.923,9.455c.3-1.079-.743-1.717-1.7-1.036L11.877,17.928c-1.037.739-.874,2.21.245,2.21h3.515v-.027h6.85L16.905,22.08l-2.46,8.741c-.3,1.079.743,1.717,1.7,1.036l13.347-9.508c1.037-.739.874-2.21-.245-2.21h-5.33Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
