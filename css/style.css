@@ -211,12 +211,28 @@ header .rigth .h-box {
 
 .about {
     padding: 190px 0;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
+.about .boxs {
+    display: flex;
+}
+
+
+.a-2 {
+    display: none;
+}
 .about .left {
     position: relative;
 }
+
+.offer {
+    display: none;
+}
+
 
 .left .box-1 img {
     background: var(--h-text);
@@ -530,9 +546,10 @@ footer .nav-link:hover {
     margin-bottom: 40px;
 }
 
-.f-5 a {
-    padding: 20px;
+.a-4 {
+    display: none;
 }
+
 
 .f-5 a:hover g g path, .f-5 a:hover g g rect {
     fill:  var(--d-blue);
@@ -563,5 +580,13 @@ footer .bottom h1 {
     font-weight: 400;
 }
 
+.icon-f {
+    justify-content: space-between;
+}
+
+.icon-d a {
+    display: none;
+}
 
 /* ======================================= End of footer ======================================================= */
+

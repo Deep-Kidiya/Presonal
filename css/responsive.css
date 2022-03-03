@@ -1,4 +1,511 @@
+@media (max-width:1800px) {
+    .container {
+        max-width: 1680px;
+    }
+
+ 
+
+
+}
+
+@media (max-width:1680px) {
+    .text p {
+        font-size: 21px;
+        font-weight: 400;
+        color: var(--w);
+        padding: 40px 0 0;
+    }
+
+    .container {
+        max-width: 1560px;
+    }
+
+    .boxs .box-1 {
+        padding: 25px;
+    }
+
+    .heading h1 {
+        margin: 10px 635px 40px;
+    }
+
+    .review .box p {
+        font-size: 23px;
+    }
+
+    .projects {
+        margin-top: 0px;
+    }
+   
+    .about {
+        padding: 90px 0;
+        justify-content: space-between;
+    }
+
+    
+}
+
+
+
+@media (max-width:1600px ) {
+
+    .left .box-2 img {
+        width: 650px;
+        height: 650px;
+        bottom: 25px;
+        left: 25px;
+    }
+
+    .left .box-2:hover img {
+        width: 700px;
+        height: 700px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+
+
+}
+
+@media (max-width: 1440px) {
+
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .container {
+     max-width: 1320px;
+    }
+
+    .left .text h1 {
+        font-size: 40px;
+    }
+
+    .left .text p {
+        font-size: 20px;
+    }
+
+    header .rigth .h-box {
+        width: 558px;
+        height: 696px;
+    }
+
+    .btn button {
+        margin: 15px 0 0;
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+
+    .left .box-1 img {
+        background: var(--h-text);
+        width: 550px;
+        height: 550px;
+        border: none;
+        border-radius: 55px;
+    }
+    
+    .left .box-2 img {
+        width: 550px;
+        height: 550px;
+        bottom: 0;
+        left: 0;
+    }
+  
+    .left .box-2:hover img {
+        width: 550px;
+        height: 550px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .about .heading h1 {
+        font-size: 35px;
+        margin: 10px 458px 24px 0;
+    }
+
+    .about .heading h2 {
+        font-size: 18px;
+    }
+
+    svg {
+        width: 35px;
+        vertical-align: middle;
+    }
+
+    .box-1 .text h1 {
+        font-size: 20px;
+        padding: 23px 0 15px;
+    }
+
+    .box-1 .text h2 {
+        font-size: 15px;
+    }
+
+    .text p {
+        font-size: 20px;
+        padding: 30px 0 0;
+    }
+
+    .heading h1 {
+        margin: 10px 524px 40px;
+    }
+
+    .projects {
+        margin-top: 0px;
+    }
+
+    .projects .text p {
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--w);
+        padding: 40px 0 0;
+    }
+
+    .projects .btn button {
+        margin: 15px 0 0;
+        padding: 10px 30px;
+    }
+    
+    .review .box p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    footer svg {
+        width: 141px;
+        vertical-align: middle;
+    }
+
+    .f-5 p {
+        font-size: 14px;
+        line-height: 30px;
+        color: var(--w);
+        margin-bottom: 40px;
+    }
+
+    footer .icon-f svg {
+        width: 26px;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width:1280px ) {
+    .container {
+        max-width: 1220px;
+    }
+
+    .left .text h1 {
+        line-height: 60px;
+    }
+
+    .about {
+        display: grid;
+        justify-content: center;
+    }
+
+    .about .left-2 {
+        display: none;
+    }
+
+    .a-2 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .about .heading h1 {
+        font-size: 35px;
+        margin: 10px 146px 24px 0;
+    }
+
+    .about .heading h1 {
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 500px 24px;
+    }
+
+    .about .heading h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .about .left {
+        position: relative;
+        padding: 80px 0px 80px;
+        justify-content: center;
+    }
+
+    .text p {
+        font-size: 25px;
+        font-weight: 400;
+        color: var(--w);
+        padding: 40px 0 0;
+        text-align: center;
+    }
+
+    .left .box-1 img {
+        width: 700px;
+        height: 700px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .left .box-2:hover img {
+        width: 700px;
+        height: 700px;
+        bottom: 80px;
+        left: 239px;
+    }
+
+    .left .box-2 img {
+        width: 700px;
+        height: 700px;
+        bottom: 80px;
+        left: 239px;
+    }
+
+    svg {
+        width: 45px;
+        vertical-align: middle;
+    }
+
+    .box-1 .text h1 {
+        font-size: 25px;
+    }
+
+    .box-1 .text h2 {
+        font-size: 20px;     
+    }
+
+    .boxs .box-1 {
+        padding: 25px 90px;
+    }
+
+    .about .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading h1 {
+        margin: 10px 492px 40px;
+    }
+
+    .projects .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .a-3 {
+        display: none;
+    }
+
+    .review .box p {
+        font-size: 25px;
+        font-weight: 400;
+        color: var(--l-gray);
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .heading h1 {
+        margin: 10px 449px 40px;
+    }
+
+    .offer {
+        display: flex;
+
+    }
+
+    .b-3 {
+        margin-top: 95px;
+    }
+
+    .f-1 {
+        margin-right: 0;
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+
+    footer svg {
+        width: 171px;
+        vertical-align: middle;
+    }
+
+    .icon-f a {
+        display: none;
+    }
+
+    .icon-d {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .icon-d a {
+        display: block;
+    }
+
+    .f-5 p {
+        font-size: 17px;
+        line-height: 30px;
+        color: var(--w);
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    footer h1 svg {
+        margin: 0px 0 0 88px;
+    }
+
+    .offer .heading h1 {
+        margin: 10px 502px 40px;
+    }
+
+    .projects .text p {
+        font-size: 29px;
+        font-weight: 400;
+        color: var(--w);
+        padding: 40px 0 0;
+    }
+
+    .box {
+        background: var(--d-blue);
+        padding: 50px;
+        margin: 26px 10px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    header .left {
+        padding: 235px 273px;
+        display: grid;
+        text-align: center;
+    }
+
+    header .icon {
+        margin-left: 0;
+        position: relative;
+        margin-top: 110px;
+    }
+
+    header .icon::after {
+        content: '';
+        position: absolute;
+        border-radius: 30px;
+        width: 0;
+        height: 0;
+        background: var(--n-text);
+        top: 10px;
+        left: -150px;
+    }
+
+    header .left {
+        padding: 235px 273px 50px;
+        display: grid;
+        text-align: center;
+    }
+
+   
+
+}
+
+@media (max-width:1024px) {
+    .offer .heading h1 {
+        margin: 10px 400px 40px;
+    }
+
+    .heading h1 {
+        margin: 10px 340px 40px;
+    }
+
+    .boxs .box-1 {
+        padding: 25px 70px;
+    }
+
+    .about .heading h1 {
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 410px 24px;
+    }
+
+    .left .box-2:hover img {
+        left: 162px;
+    }
+
+    .left .box-2 img {
+        left: 162px;
+    }
+
+    footer h1 svg {
+        margin: 60px 0 0 408px;
+    }
+
+
+
+    header .left {
+        padding: 135px 185px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header .icon {
+        margin-left: 0;
+        position: relative;
+        margin-top: 110px;
+    }
+
+    header .icon::after {
+        content: '';
+        position: absolute;
+        border-radius: 30px;
+        width: 0;
+        height: 0;
+        background: var(--n-text);
+        top: 10px;
+        left: -150px;
+    }
+
+    .about {
+        padding: 0px 0;
+        justify-content: space-between;
+    }
+
+    .projects {
+        padding: 90px 0 0;
+    }
+    
+    .offer .box {
+        border: none;
+        padding: 0 0px;
+        margin: 20px 235px;
+    }
+
+    .b-3 {
+        margin-top: 0;
+    }
+
+
+
+}
+
 @media (max-width:912px ) {
+
+    .a-4 {
+        display: flex;
+    }
+
+    .a-5 {
+        display: none;
+    }
+
+    .c-1 {
+        display: flex;
+        
+    }
+
     .navbar-light li a::after {
         display: none;
     }
@@ -10,5 +517,386 @@
     .navbar-light li a.active::after {
        display: none;
     }
+
+    .navbar-toggler-icon {
+        margin: 0 0 0 624px;
+    }
+
+    .about .heading h1 {
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 352px 24px;
+    }
     
+    .heading h1 {
+        margin: 10px 300px 40px;
+    }
+
+    .offer .heading h1 {
+        margin: 10px 351px 40px;
+    }
+
+    .offer .box {
+        border: none;
+        padding: 0 0px;
+        margin: 20px 160px;
+    }
+
+    .box {
+        background: var(--d-blue);
+        padding: 30px;
+        margin: 25px 45px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .projects .box {
+        background: var(--d-blue);
+        padding: 30px;
+        margin: 25px 188px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .review .box p {
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--l-gray);
+        line-height: 31px;
+        text-align: center;
+    }
+
+    footer h1 svg {
+        margin: 60px 0 0 346px;
+    }
+
+    header .left {
+        padding: 135px 127px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .left .box-2:hover img {
+        left: 106px;
+    }
+
+    .left .box-2 img {
+        left: 106px;
+    }
+
+}
+
+@media (max-width:820px) {
+    .navbar-toggler-icon {
+        margin: 0 0 0 541px;
+    }
+
+    header .left {
+        padding: 135px 67px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about .heading h1 {
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 291px 24px;
+    }
+
+    .left .box-2:hover img {
+        left: 60px;
+    }
+
+    .left .box-2 img {
+        left: 60px;
+    }
+
+    .boxs .box-1 {
+        padding: 25px 18px;
+    }
+
+    .heading h1 {
+        margin: 10px 248px 40px;
+    }
+
+    .offer .heading h1 {
+        margin: 10px 315px 40px;
+    }
+
+    footer h1 svg {
+        margin: 60px 0 0 307px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .navbar-toggler-icon {
+        margin: 0 0 0 488px;
+    }
+
+    .left .box-2:hover img {
+        width: 600px;
+        height: 600px;
+        left: 78px;
+    }
+
+    .left .box-2 img {
+        width: 600px;
+        height: 600px;
+        left: 78px;
+    }
+
+    .left .box-1 img {
+        width: 600px;
+        height: 600px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .text p {
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--w);
+        padding: 40px 0 0;
+        text-align: center;
+    }
+
+    .projects .box {
+        background: var(--d-blue);
+        padding: 30px;
+        margin: 25px 128px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .offer .box {
+        border: none;
+        padding: 0 0px;
+        margin: 20px 130px;
+    }
+
+    .offer .heading h1 {
+        margin: 10px 289px 40px;
+    }
+
+    .heading h1 {
+        margin: 10px 228px 40px;
+    }
+
+    header .left {
+        padding: 135px 52px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:600px) {
+    .about .heading h1 {
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 206px 24px;
+    }
+
+    header .left {
+        padding: 135px 0px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .left .text h1 {
+        font-size: 36px;
+    }
+
+    .navbar-toggler-icon {
+        margin: 0 0 0 329px;
+    }
+
+    .boxs .box-1 {
+        padding: 25px 18px;
+        margin: 15px 90px;
+    }
+    .about .boxs {
+        display: grid;
+    }
+
+    .text p {
+        font-size: 19px;
+        font-weight: 400;
+        color: var(--w);
+        padding: 40px 0 0;
+        text-align: center;
+    }
+
+    .heading h1 {
+        margin: 10px 192px 40px;
+    }
+
+    .projects .box {
+        background: var(--d-blue);
+        padding: 30px;
+        margin: 25px 57px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .heading h1 {
+        margin: 10px 147px 40px;
+    }
+
+    .offer .heading h1 {
+        margin: 10px 203px 40px;
+    }
+
+    .offer .box {
+        border: none;
+        padding: 0 0px;
+        margin: 20px 78px;
+    }
+
+    footer h1 svg {
+        margin: 60px 0 0 189px;
+    }
+
+    .left .box-1 img {
+        width: 450px;
+        height: 450px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .left .box-2:hover img {
+        width: 450px;
+        height: 450px;
+        left: 74px;
+    }
+
+    .left .box-2 img {
+        width: 450px;
+        height: 450px;
+        left: 74px;
+    }
+
+    .review .box p {
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--l-gray);
+        line-height: 31px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:414px) {
+
+    .about .heading h1 {
+        font-size: 35px;
+        text-align: center;
+    margin: 10px 111px 24px;
+    }
+
+    .left .box-1 img {
+        width: 350px;
+        height: 350px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .left .box-2 img {
+        width: 350px;
+        height: 350px;
+        left: 31px;
+    }
+
+    .left .box-2:hover img {
+        width: 350px;
+        height: 350px;
+        left: 31px;
+    }
+
+    .heading h1 {
+        margin: 10px 99px 40px;
+    }
+
+    .projects .box {
+        background: var(--d-blue);
+        padding: 30px;
+        margin: 25px 28px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .heading h1 {
+        margin: 10px 60px 40px;
+    }
+
+    .box {
+        background: var(--d-blue);
+        padding: 30px 20px;
+        margin: 25px 45px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .offer .heading h1 {
+        margin: 10px 99px 40px;
+    }
+
+    .offer .box {
+        border: none;
+        padding: 0 0px;
+        margin: 20px 48px;
+    }
+
+    .body-text h1 {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 10px 20px;
+        line-height: 30px;
+        color: var(--w);
+    }
+
+    .navbar-toggler-icon {
+        margin: 0 0 0 153px;
+    }
+
+    footer .bottom h1 {
+        padding: 50px 0;
+        text-align: center;
+        color: var(--w);
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    footer svg {
+        width: 118px;
+        vertical-align: middle;
+    }
+
+    footer h1 svg {
+        margin: 60px 0 0 100px;
+        width: 158px;
+    }
+
 }
